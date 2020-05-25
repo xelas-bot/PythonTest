@@ -1,2 +1,1 @@
-# PythonTest
-Python Testing
+# cs50python
