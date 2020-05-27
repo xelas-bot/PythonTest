@@ -3,14 +3,29 @@ import random
 
 
 def myFunc():
-    x=random.randrange(1, 10)
 
-    if 6>2:
-        print(x)
-    else:
-        print(x)
+    return bool("hello")
+
+i = 1
+y = 0
 
 
-myFunc()
 
-print(int("3") + int("5"))
+while i < 8 or y < 8:
+    n = 0
+
+    i += 1
+
+
+    count = 0
+
+    while n < y:
+        print("*", end= '')
+        count+=1
+        n += 1
+    print('*')
+    y = y + 1
+
+
+
+
